@@ -1,0 +1,6 @@
+{
+  "name": "Pest Control Clinic",
+  "description": "Premium pest control service website for Pest Control Clinic - Safe Homes, Pest-Free Living.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
