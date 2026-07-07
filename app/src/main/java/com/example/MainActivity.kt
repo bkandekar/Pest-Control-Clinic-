@@ -32,6 +32,8 @@ class MainActivity : ComponentActivity() {
                 settings.domStorageEnabled = true
                 settings.allowFileAccess = true
                 settings.allowContentAccess = true
+                settings.cacheMode = android.webkit.WebSettings.LOAD_NO_CACHE
+                clearCache(true)
                 
                 webViewClient = object : WebViewClient() {
                   override fun shouldOverrideUrlLoading(
